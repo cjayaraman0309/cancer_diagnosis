@@ -13,6 +13,14 @@ y = df['diagnosis']
 X_train, X_test, y_train, y_test = train_test_split(X, y, stratify=y, random_state=42)
 
 with mlflow.start_run() as run:
+    # Set MLflow tags
+    mlflow.set_tags({
+        "created_by": "cjayaraman",
+        "project": "cancer-diagnosis",
+        "model_type": "RandomForestClassifier",
+        "purpose": "ML pipeline demo"
+    })
+
     clf = RandomForestClassifier(n_estimators=100, random_state=42)
     clf.fit(X_train, y_train)
     preds = clf.predict(X_test)
