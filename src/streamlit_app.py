@@ -1,12 +1,11 @@
-with open("src/streamlit_app.py", "w") as f:
-    f.write('''import streamlit as st
+import streamlit as st
 import pandas as pd
 import mlflow.sklearn
 
 st.title("Breast Cancer Diagnosis Prediction")
 
 # Replace <RUN_ID> with your actual run id from MLflow training output
-model = mlflow.sklearn.load_model("runs:/fe9437980d7244ba8db05d9bff69c8b3/rf-model")
+model = mlflow.sklearn.load_model("runs:/f5c0bc18cd1449eb892ce3f411e01d05/rf-model")
 
 features = [
     'radius_mean','texture_mean','perimeter_mean','area_mean','smoothness_mean',
@@ -24,4 +23,3 @@ if st.button("Predict"):
     input_df = pd.DataFrame([input_data])
     prediction = model.predict(input_df)[0]
     st.write("Prediction:", "Malignant" if prediction == 1 else "Benign")
-''')

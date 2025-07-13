@@ -1,0 +1,14 @@
+artifact_uri: file:///content/mlruns/0/fe9437980d7244ba8db05d9bff69c8b3/artifacts
+end_time: 1752420033803
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: fe9437980d7244ba8db05d9bff69c8b3
+run_name: intelligent-croc-590
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1752420026706
+status: 3
+tags: []
+user_id: root
