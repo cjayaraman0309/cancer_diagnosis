@@ -1,5 +1,4 @@
-with open("src/train.py", "w") as f:
-    f.write('''import pandas as pd
+import pandas as pd
 import mlflow
 import mlflow.sklearn
 from sklearn.model_selection import train_test_split
@@ -32,4 +31,3 @@ with mlflow.start_run() as run:
     print("Accuracy:", acc)
     print("F1 Score:", f1)
     print("Run ID:", run.info.run_id)
-''')

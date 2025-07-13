@@ -1,0 +1,10 @@
+artifact_location: file:///content/mlruns/0/models/m-b3eda948d204400ab3ea121e1e3938c3/artifacts
+creation_timestamp: 1752422794626
+experiment_id: '0'
+last_updated_timestamp: 1752422800017
+model_id: m-b3eda948d204400ab3ea121e1e3938c3
+model_type: null
+name: rf-model
+source_run_id: 4838809c53f448c69a08c3b732b9a5a6
+status: 2
+status_message: null

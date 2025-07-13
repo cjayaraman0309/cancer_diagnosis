@@ -5,7 +5,7 @@ import mlflow.sklearn
 st.title("Breast Cancer Diagnosis Prediction")
 
 # Replace <RUN_ID> with your actual run id from MLflow training output
-model = mlflow.sklearn.load_model("runs:/f5c0bc18cd1449eb892ce3f411e01d05/rf-model")
+model = mlflow.sklearn.load_model("runs:/4838809c53f448c69a08c3b732b9a5a6/rf-model")
 
 features = [
     'radius_mean','texture_mean','perimeter_mean','area_mean','smoothness_mean',

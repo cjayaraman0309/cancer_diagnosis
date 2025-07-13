@@ -1,0 +1,14 @@
+artifact_uri: file:///content/mlruns/0/4838809c53f448c69a08c3b732b9a5a6/artifacts
+end_time: 1752422800019
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 4838809c53f448c69a08c3b732b9a5a6
+run_name: kindly-swan-304
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1752422794228
+status: 3
+tags: []
+user_id: root
